@@ -96,6 +96,7 @@ try {
 </head>
 <body>
     <h1>Manage DOCX Files</h1>
+    <a href="Search.php">Search</a>
     <!-- ส่วนของเนื้อหา -->
     <div class="container mt-5">
         <h1 class="text-center text-primary">Manage DOCX Files</h1>
@@ -124,10 +125,6 @@ try {
             </tbody>
         </table>
         <a href="upload.php" class="btn btn-success">Upload New File</a>
-        <a href="edit.php?id=<?= $doc['id'] ?>" class="btn btn-sm btn-warning">
-        <i class="fas fa-edit"></i> Edit
-        </a>
-
     </div>
 </body>
 </html>
